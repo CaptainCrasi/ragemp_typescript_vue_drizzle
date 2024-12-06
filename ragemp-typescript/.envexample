@@ -1,0 +1,5 @@
+PRODUCTION_MODE=false
+COMPILER_USE_SWC=true
+
+# for drizzle / Change accordingly
+DATABASE_URL=mysql://root:password@10.10.10.10:3306/ragemp

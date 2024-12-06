@@ -1,0 +1,14 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"types": ["../../node_modules/@ragempcommunity/types-server", "./@types"],
+		"baseUrl": "./",
+		"paths": {
+			"@shared/*": ["../shared/*"],
+			"@/*": ["./*"],
+			"@db": ["../../_drizzle/db"]
+		}
+	},
+	"include": ["./**/*.ts", "../shared/**/*.ts", "../../scripts/js/index.d.ts"],
+	"exclude": ["../shared/**/*.d.ts"]
+}
