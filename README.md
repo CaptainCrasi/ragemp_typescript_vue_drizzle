@@ -49,9 +49,12 @@ You should see a new entry under the _accounts_ table in your database
 ### 2. Setup VueJS
 All VueJS components are stored under _/myvite/_. In fact, VueJS is under a completely different project and must be recompiled everytime there is a change, and we only move the _/myvite/dist/_ folder into our ragemp distribution.
 * **Open a new terminal**
-```cd myvite```
 * **Build the project**
-```npm run build```
+	```
+ 	cd myvite
+	npm install
+	npm run build
+	```
 * **Push the changes to RageMP**  
 	```
 	cd ../ragemp-typescript
