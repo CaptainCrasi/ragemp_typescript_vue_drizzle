@@ -1,6 +1,6 @@
 
 ## ragemp_typescript_vue_drizzle
- Boilerplate project for RageMP.
+ Base project for RageMP.
  #### Advantages of using this boilerplate:
  * Adds Typescript for type safety.
  * Adds VueJS (through Vite) to easily create CEF UI's
